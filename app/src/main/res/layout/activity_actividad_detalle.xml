@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ActividadDetalle"
+    android:gravity="center_vertical|center_horizontal"
+    android:background="#CF98F8">
+
+    <ImageView
+        android:id="@+id/img_detalle"
+        android:layout_width="230dp"
+        android:layout_height="230dp"
+        android:layout_marginTop="20dp"/>
+
+
+    <TextView
+        android:id="@+id/txt_nombre_detalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nombre"
+        android:textColor="#9419ee"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txt_estado_detalle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categoría"
+        android:textColor="@color/white"
+        android:textSize="15sp"
+        android:textStyle="italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical|center_horizontal">
+
+        <TextView
+            android:id="@+id/txt_especie_detalle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5dp"
+            android:text="Estado"
+            android:textColor="@color/white"
+            android:textSize="15sp"
+            android:textStyle="italic"
+            android:gravity="start"/>
+
+
+
+    </LinearLayout>
+
+
+
+    <Button
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_volver"
+        android:backgroundTint="#43066F"
+        android:text="cerrar sesion"/>
+
+
+</LinearLayout>
